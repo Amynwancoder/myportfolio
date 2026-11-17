@@ -27,7 +27,8 @@
 
  body {
    position: relative;
-   overflow-x: hidden;
+   overflow-x: clip;
+   /* overflow-x: hidden; */
    background: var(--bg);
    color: var(--text);
    font-family: var(--font-body);
@@ -1028,12 +1029,14 @@
    }
 
    .orbit-one {
-     width: 315px;
+     /* width: 315px; */
+     width: min(315px, 90vw);
      height: 315px;
    }
 
    .orbit-two {
-     width: 350px;
+     width: min(350px, 90vw);
+     /* width: 350px; */
      height: 350px;
    }
 
