@@ -25,6 +25,10 @@
    scroll-behavior: smooth;
  }
 
+ html {
+   overflow-x: clip;
+ }
+
  body {
    position: relative;
    overflow-x: clip;
